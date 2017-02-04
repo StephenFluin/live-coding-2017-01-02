@@ -1,0 +1,5 @@
+<md-card *ngFor="let speaker of speakers | async" style="width:300px;">
+  <md-card-header>{{speaker.name}}</md-card-header>
+  <img [src]="speaker.imageUrl" md-card-image>
+  <md-card-content [innerHTML]="speaker.bio"></md-card-content>
+</md-card>

@@ -1,0 +1,7 @@
+
+@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
+
+* { margin: 0px; padding: 0px;}
+md-card { margin: 16px;}
+md-card-actions { text-align:right;}
+md-card-actions button {margin:16px !important;}
